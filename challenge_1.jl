@@ -1,3 +1,12 @@
+
+
+a = 6
+
+function f(a::Int)
+    z = a+3
+    throw("Error")
+end
+
 ##
 ## AR1 object: basic matrix work + functions + tests + types
 ##
